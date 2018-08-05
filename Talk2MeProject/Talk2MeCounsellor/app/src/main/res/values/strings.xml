@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">Talk2MeCounsellor</string>
+
+    <string name="action_login">Log in</string>
+    <string name="action_signup">Sign up</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_unblock">Unblock</string>
+    <string name="action_block">Block</string>
+    <string name="action_about">About</string>
+    <string name="action_ok">OK</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_save">Save</string>
+    <string name="action_send">Send</string>
+    <string name="action_open">Open</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_reply">Reply</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_report">Report</string>
+    <string name="action_remove">Delete</string>
+    <string name="action_remove_chat">Delete chat</string>
+    <string name="action_deactivate">Deactivate</string>
+    <string name="action_create">Create</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_more">Load more</string>
+    <string name="action_search">Search</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_turn_on">Turn on</string>
+    <string name="action_turn_off">Turn off</string>
+    <string name="action_select_birth">Date of Birth</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_gallery">Choose from gallery</string>
+    <string name="action_copy_url">Copy link</string>
+    <string name="action_open_url">Open in a browser</string>
+    <string name="settings_allow_messages">Receive messages from anyone</string>
+    <string name="settings_allow_messages_summary">You will be able to receive messages from any user, even if the user is not in the list of your friends.</string>
+    <string name="action_enable">Enable</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_reject">Reject</string>
+    <string name="action_pending">Pending&#8230;</string>
+    <string name="action_add_to_friends">Add to friends</string>
+    <string name="action_remove_from_friends">Remove from friends</string>
+
+    <string name="action_buy_credits">Get More Credits</string>
+
+    <string name="action_follow">Follow</string>
+    <string name="action_unfollow">Unfollow</string>
+    <string name="action_new">New</string>
+    <string name="action_profile_edit_photo">Edit photo</string>
+    <string name="action_profile_edit_cover">Edit cover</string>
+    <string name="action_profile_edit">Edit</string>
+
+    <string name="action_login_with_facebook">Log in with Facebook</string>
+    <string name="action_signup_with_facebook">Sign up with Facebook</string>
+    <string name="action_connect_with_facebook">Connect with Facebook</string>
+    <string name="action_remove_connection">Remove connection</string>
+    <string name="action_regular_signup">Back to the regular registration form</string>
+    <string name="action_forgot_password">Forgot password?</string>
+
+    <string name="label_profile_report_0">Spam</string>
+    <string name="label_profile_report_1">Hate speech or violence</string>
+    <string name="label_profile_report_2">Nudity or Pornography</string>
+    <string name="label_profile_report_3">Fake profile</string>
+    <string name="label_profile_report_4">Piracy</string>
+
+    <string name="label_gender_select_title">Choose gender</string>
+    <string name="label_age">Age</string>
+    <string name="label_sex">Gender</string>
+    <string name="label_male">Male</string>
+    <string name="label_female">Female</string>
+    <string name="label_sex_undefined">Gender Not Set</string>
+    <string name="label_sex_male">Gender Male</string>
+    <string name="label_sex_female">Gender Female</string>
+
+    <string name="label_profile_information">Profile Information</string>
+    <string name="label_profile_activity">Profile Activity</string>
+    <string name="label_profile_join">Join Date</string>
+
+    <string name="placeholder_password">Password</string>
+    <string name="placeholder_login">Username</string>
+    <string name="placeholder_fullname">Fullname</string>
+    <string name="placeholder_location">Location</string>
+    <string name="placeholder_facebook_page">Facebook page</string>
+    <string name="placeholder_instagram_page">Instagram page</string>
+    <string name="placeholder_bio">Bio</string>
+    <string name="placeholder_email">Email</string>
+    <string name="placeholder_subject">Subject</string>
+    <string name="placeholder_support_detail">What are you contacting us about?</string>
+    <string name="placeholder_current_password">Current password</string>
+    <string name="placeholder_new_password">New password</string>
+    <string name="placeholder_item_category">Category</string>
+    <string name="placeholder_item_title">Title</string>
+    <string name="placeholder_item_login">Username, email or phone</string>
+    <string name="placeholder_item_passw">Password</string>
+    <string name="placeholder_item_url">Web site</string>
+    <string name="placeholder_item_description">Description</string>
+    <string name="placeholder_search">Search</string>
+    <string name="placeholder_comment">Type a comment&#8230;</string>
+    <string name="placeholder_message">Type a message&#8230;</string>
+
+    <string name="msg_loading">Please wait&#8230;</string>
+    <string name="msg_loading_2">Loading. Please wait&#8230;</string>
+    <string name="msg_network_error">Please check your Internet connection</string>
+    <string name="msg_account_blocked">This account is blocked by a moderator.</string>
+    <string name="msg_copied_to_clipboard">Copied to clipboard.</string>
+    <string name="msg_enter_item">Please write something or attach photo.</string>
+    <string name="msg_enter_msg">Please write something.</string>
+    <string name="msg_send_msg_error">You can not send a message to the user.</string>
+    <string name="msg_password_changed">Password successfully changed</string>
+    <string name="msg_settings_saved">Settings successfully saved.</string>
+    <string name="msg_ticket_send_success">Your request is accepted! You will receive a response to the email, which is indicated in the request.</string>
+    <string name="msg_password_reset_link_sent">A message with link to reset your password has been sent to your email.</string>
+    <string name="msg_no_such_user_in_bd">No such user in database</string>
+    <string name="msg_connect_to_facebook_success">You have successfully linked application with your account on Facebook!</string>
+    <string name="msg_connect_to_facebook_error">Your account on Facebook is already associated with another account.</string>
+    <string name="msg_connect_to_facebook_removed">Connect with your Facebook account removed.</string>
+    <string name="msg_chat_has_been_removed">Chat has been removed.</string>
+    <string name="msg_profile_removed_from_blacklist">The user is removed from blocked list.</string>
+    <string name="msg_profile_link_copied">Profile link copied to clipboard.</string>
+    <string name="msg_profile_added_to_blacklist">The user is added to blocked list.</string>
+
+    <string name="error_signin">Incorrect username or password</string>
+    <string name="error_internet_connection">No internet connection</string>
+    <string name="error_data_loading">When loading data error has occurred. Check your network connection.</string>
+    <string name="error_field_empty">Required fields are empty</string>
+    <string name="error_small_password">Minimum 6 characters</string>
+    <string name="error_small_username">Minimum 5 characters</string>
+    <string name="error_small_fullname">Minimum 2 characters</string>
+    <string name="error_wrong_format">Wrong format</string>
+    <string name="error_login_taken">Username is already taken</string>
+    <string name="error_email_taken">User with this mail is already registered</string>
+    <string name="error_password">Invalid password.</string>
+    <string name="error_email">Email invalid.</string>
+    <string name="error_credits">Not enough credits!</string>
+    <string name="error_action">This user has forbidden you to do it!</string>
+    <string name="error_no_friend">This user receives messages only from his friends!</string>
+
+    <string name="label_gcm_friend_request">You have a new friend request.</string>
+    <string name="label_gcm_friend_request_accepted">Friend Request accepted.</string>
+    <string name="label_gcm_friend">You have a new friend.</string>
+    <string name="label_gcm_message">You have a new message.</string>
+
+    <string name="label_authorization_via_facebook">Authorization via Facebook.</string>
+    <string name="label_account_connected_to_facebook">Connected with Facebook</string>
+    <string name="label_account_connect_to_facebook">Connect this account with your social network accounts</string>
+    <string name="label_empty_list">List is empty.</string>
+    <string name="label_nearby">Near you</string>
+
+    <string name="label_location">Location</string>
+    <string name="label_block">Block</string>
+    <string name="label_block_msg">will not be able send send to your messages, and you will not see notifications from</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_report_dialog_title">Abuse report</string>
+    <string name="label_last_message_image">Image</string>
+    <string name="label_profile_reported">Profile reported.</string>
+    <string name="label_select_img">Select image</string>
+    <string name="label_delete_img">Delete image?</string>
+    <string name="label_account_disabled">Account blocked</string>
+    <string name="label_search_start_screen_msg">Find People by username, name, email or location.</string>
+    <string name="label_search_results">Find people:</string>
+    <string name="label_search_results_error">No results found</string>
+    <string name="label_friend_request_added">sent you a request to friends.</string>
+    <string name="label_share_dialog_title">Share With</string>
+    <string name="label_public">Public</string>
+    <string name="label_friend_request_dialog_title">Friend Request</string>
+    <string name="label_search_settings_dialog_title">Search Settings</string>
+    <string name="label_activity">Last Active</string>
+
+    <string name="label_friends">friends</string>
+    <string name="label_online">Online</string>
+    <string name="label_offline">Offline</string>
+
+    <string name="label_to">to</string>
+    <string name="label_from">from</string>
+    <string name="label_between">between</string>
+
+    <string name="signup_label_1">By clicking Sign up, you agree to our</string>
+    <string name="signup_label_terms_and_policies">Terms and Policies</string>
+
+    <string name="settings_header_general">General</string>
+    <string name="settings_header_others">Others</string>
+    <string name="settings_header_about">About</string>
+    <string name="settings_header_notifications">Notification</string>
+
+    <string name="settings_notifications_friends">Friend Requests</string>
+    <string name="settings_notifications_messages">Private messages</string>
+
+    <string name="settings_version">Version</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_copyright_info">Copyright info</string>
+    <string name="settings_contact_us">Contact us</string>
+    <string name="settings_contact_us_summary">Report a problem</string>
+    <string name="settings_web_site">Our website</string>
+    <string name="settings_view_blocked_list">View blocked list</string>
+    <string name="settings_deactivate_account">Deactivate account</string>
+    <string name="settings_thanks">Acknowledgements</string>
+    <string name="settings_terms">Terms of use</string>
+    <string name="settings_change_password">Change password</string>
+    <string name="settings_services">Services</string>
+    <string name="settings_notifications">Push notifications</string>
+    <string name="settings_services_summary">Connect with social network accounts</string>
+    <string name="settings_account_deactivation">If you proceed deactivate your account, you can never go back. If you want to come back - you\'ll have to create a new account.</string>
+
+    <string name="settings_file">account</string>
+    <string name="settings_account_id">account_id</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_access_token">access_token</string>
+    <string name="settings_account_allow_messages_gcm">allow_messages_gcm</string>
+    <string name="settings_account_allow_followers_gcm">allow_followers_gcm</string>
+    <string name="settings_account_verify">account_verify</string>
+    <string name="settings_account_photo_url">account_photo_url</string>
+    <string name="settings_account_cover_url">account_cover_url</string>
+    <string name="settings_account_fullname">account_fullname</string>
+
+    <string name="page_1">Profile</string>
+    <string name="page_2">Friends</string>
+    <string name="page_3">Messages</string>
+    <string name="page_4">Notifications</string>
+    <string name="page_5">People Nearby</string>
+    <string name="page_6">Search</string>
+    <string name="page_7">Settings</string>
+
+    <string-array name="navDrawerItems">
+        <item>Profile</item>
+        <item>Friends</item>
+        <item>Messages</item>
+        <item>Notifications</item>
+        <item>People Nearby</item>
+        <item>Search</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+        <item>@drawable/ic_action_profile</item>
+        <item>@drawable/ic_action_friends</item>
+        <item>@drawable/ic_action_messages</item>
+        <item>@drawable/ic_action_notifications</item>
+        <item>@drawable/ic_action_nearby</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_settings</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_recovery">Password recovery</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_web_view">Web View</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_new_photo">New Photo</string>
+    <string name="title_activity_profile">Profile</string>
+
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_notifications">Notifications</string>
+    <string name="title_activity_photo_view">Photo</string>
+    <string name="title_activity_account_settings">Settings</string>
+    <string name="title_activity_report">Report</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_black_list">Blocked List</string>
+    <string name="title_activity_dialogs">Messages</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_notifications_settings">Push notifications</string>
+    <string name="title_activity_support">Contact us</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_deactivate">Deactivate Account</string>
+    <string name="title_activity_friends">Profile Friends</string>
+    <string name="title_activity_nearby">People Nearby</string>
+
+    <string name="title_dialog_nearby">Select a Distance</string>
+
+    <string name="dialog_nearby_0">80 kilometers</string>
+    <string name="dialog_nearby_1">160 kilometers</string>
+    <string name="dialog_nearby_2">400 kilometers</string>
+    <string name="dialog_nearby_3">800 kilometers</string>
+    <string name="dialog_nearby_4">1,600 kilometers</string>
+
+    <string name="label_profile_birth">Birth Date</string>
+    <string name="label_profile_allow_show_birth">Show date birth in the profile</string>
+    <string name="action_open_settings"><u>Open Location Settings</u></string>
+    <string name="action_set_location">Yes, this is my location</string>
+    <string name="action_detail">More details</string>
+    <string name="msg_location_error">We could not get your location.</string>
+
+    <string name="label_location_prompt">Allow access to your location to enable other features using location.</string>
+
+    <string name="settings_account_lat">lat</string>
+    <string name="settings_account_lng">lng</string>
+
+    <string name="action_add_photo">You can add a photo now!</string>
+
+    <!-- added for version 1.2 -->
+
+    <string name="action_grant">Grant</string>
+    <string name="msg_location_permission_request">Please grant permissions to use your location.</string>
+    <string name="label_no_storage_permission">Storage permission isn\'t granted</string>
+    <string name="label_no_location_permission">Location permission isn\'t granted</string>
+    <string name="label_grant_storage_permission">Open Permissions and grant the Storage permission</string>
+    <string name="label_grant_location_permission">Open Permissions and grant the Location permission</string>
+
+    <!-- added for version 1.3 -->
+
+    <string name="label_just_now">Just now</string>
+    <string name="channel_name">QAChat</string>
+    <string name="get_started">Get Started</string>
+
+    <!--from version 1-->
+    <string name="robot_welcome_message">Welcome! I\'m Obioma. I\'ll be explaining \n how Talk2Me works and helping you \n get  connected  with  the right therapist \n  to help.   \n\n   Can we start with your name and we will also help you get you set up!</string>
+    <string name="obioma">Obioma,</string>
+    <string name="reply_the_message">Reply the message...</string>
+    <string name="you">You</string>
+    <string name="your_message">User Message</string>
+
+    <!--paystack string values-->
+    <string name="hello_world">Hello world!</string>
+    <string name="card_number">Card number</string>
+    <string name="cvv">CVV</string>
+    <string name="mm">MM</string>
+    <string name="yyyy">YYYY</string>
+    <string name="create_token">Create token</string>
+    <string name="no_card_yet">No card yet</string>
+    <string name="no_token">No token</string>
+    <string name="token_null_message">Token was null</string>
+    <string name="token_not_gotten">Unable to get token</string>
+    <string name="sample_card">4123450131001381</string>
+    <string name="sample_cvv">883</string>
+    <string name="sample_month">01</string>
+    <string name="sample_year">2020</string>
+    <string name="no_transaction_yet">No transaction yet</string>
+    <string name="amount_in_kobo">Amount in Kobo</string>
+    <string name="top_message_small">Your matching Therapist will be joining you soon. You will be asked a few questions to  find the best Therapist match for your needs. In   the meantime, tell us a bit about what brought you here today</string>
+    <string name="top_message">Welcome to Talk2Me</string>
+    <string name="plan_details"><![CDATA[Text, Video & audio messaging. \n  Therapists respond daily, 5 days a week]]></string>
+    <string name="proceed_to_payment">Proceed to Payment</string>
+    <string name="submit">Submit</string>
+    <string name="go_back"><![CDATA[<< Go Back]]></string>
+    <string name="click_the_button_below">Click the button below to proceed</string>
+    <string name="obioma_reply_2">Thank you so much for opening up. I   am so sorry to hear you have been going   through a tough time like this   Talk2Me is a text based therapy service   Use the selection menu below to tell us more</string>
+    <string name="enter_your_name">Enter Your Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_robot_welcom_nav">RobotWelcomActivityNav</string>
+    <string name="title_activity_robot_follow_up_nav">RobotFollowUpNav</string>
+    <string name="title_activity_robot_folow_up2_nav">RobotFolowUp2Nav</string>
+    <string name="title_activity_robot_follow_up3_nav">RobotFollowUp3Nav</string>
+    <string name="title_activity_robot_follow_up3_free_nav">RobotFollowUp3FreeNav</string>
+    <string name="title_activity_robot_follow_up3_high_nav">RobotFollowUp3HighNav</string>
+    <string name="logout_text">Logout</string>
+    <string name="rate_talk2me">Rate Talk2Me</string>
+    <string name="tell_a_friend">Tell A Friend</string>
+    <string name="title_activity_main_chat_nav">MainChatActivityNav</string>
+    <string name="unlimited_messaging_therapy_premium">Unlimited Messaging Therapy Premium</string>
+    <string name="logout_label">Log out</string>
+    <string name="youtitle">You :-</string>
+    <string name="enter_patients_name">Enter Patients name</string>
+    <string name="my_name">My Name</string>
+    <string name="select_my_user">Select Your user</string>
+    <string name="chating_with">You are chating with </string>
+    <string name="space" >... </string>
+    <string name="welcome_counsellor">Welcome to the administrative back end of the Talk2me counselling App</string>
+    <string name="app_name_top">Talk2me Counsellor</string>
+    <string name="choose_a_user">Select your User</string>
+</resources>

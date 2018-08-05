@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_smoke"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_weight="20">
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/TopDate"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="8sp"
+                    android:text="Date" />
+
+
+            </TableRow>
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutObioma"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvObioma"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/obioma"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tvWelcomeMessage"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/pad_20dp"
+                        android:layout_marginRight="@dimen/pad_20dp"
+                        android:padding="10dp"
+                        android:background="@drawable/bubble_in"
+                        android:gravity="left"
+                        android:singleLine="false"
+                        android:text="@string/robot_welcome_message"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutYou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/you"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/userReply1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="@dimen/pad_20dp"
+                        android:layout_marginRight="@dimen/pad_20dp"
+                        android:background="@drawable/bubble_out"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:text="@string/your_message"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+       <!--             <TextView
+                        android:id="@+id/tvDate_you"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="Date"
+                        android:textSize="8sp"
+                        android:visibility="visible" />-->
+
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutObioma2"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvObioma2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/obioma"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/tvWelcomeMessage2"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/pad_20dp"
+                        android:layout_marginRight="@dimen/pad_20dp"
+                        android:background="@drawable/bubble_in"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:singleLine="false"
+                        android:text="text"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" />
+
+<!--                    <TextView
+                        android:id="@+id/tvDate2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:textSize="8sp"
+                        android:text="Date" />-->
+
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutYou3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="right"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="@string/you"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/userReplySecond"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginEnd="@dimen/pad_20dp"
+                        android:layout_marginRight="@dimen/pad_20dp"
+                        android:background="@drawable/bubble_out"
+                        android:gravity="right"
+                        android:padding="10dp"
+                        android:text="@string/your_message"
+                        android:textColor="@color/white"
+                        android:textSize="15sp" />
+
+<!--                    <TextView
+                        android:id="@+id/tvDate_you3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="Date"
+                        android:textSize="8sp"
+                        android:visibility="visible" />-->
+
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutYou2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:visibility="invisible"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/obioma"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/obiomaReply2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/pad_20dp"
+                        android:layout_marginRight="@dimen/pad_20dp"
+                        android:padding="10dp"
+                        android:background="@drawable/bubble_in"
+                        android:gravity="left"
+                        android:text="@string/your_message"
+                        android:textColor="@color/black"
+                        android:textSize="15sp" >
+                        <requestFocus />
+                    </TextView>
+
+<!--                    <TextView
+                        android:id="@+id/tvDate_you2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:text="Date"
+                        android:textSize="8sp"
+                        android:visibility="visible" />-->
+
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/spinnerCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10">
+
+
+                </Spinner>
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/submitButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:padding="4dp"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/ic_action_send"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

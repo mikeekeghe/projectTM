@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "58493941277",
+    "firebase_url": "https://talk2mecounsellor.firebaseio.com",
+    "project_id": "talk2mecounsellor",
+    "storage_bucket": "talk2mecounsellor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58493941277:android:eb7be077782ae02a",
+        "android_client_info": {
+          "package_name": "com.cchd.talk2me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58493941277-ef8sv2nb9vn06kc2fm53gr6ugep419eh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0WvQiuSdoPYkcbyejr-zki-UIQ_fkFIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

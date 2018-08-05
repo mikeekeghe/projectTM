@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:hint="@string/msg_enter_msg"
+            android:paddingLeft="8dp"
+            android:paddingRight="6dp"
+            tools:ignore="ExtraText"
+            android:id="@+id/messageArea">
+            <requestFocus />
+
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="4dp"
+            android:background="#FFFFFF"
+            android:src="@drawable/ic_action_send" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

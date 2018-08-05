@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="allowFollowersGCM"
+        android:title="@string/settings_notifications_friends">
+    </CheckBoxPreference>
+
+    <CheckBoxPreference
+        android:key="allowMessagesGCM"
+        android:title="@string/settings_notifications_messages">
+    </CheckBoxPreference>
+
+</PreferenceScreen>

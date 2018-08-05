@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_smoke"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".RobotFollowUp3Nav"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="2">
+
+
+                <Spinner
+                    android:id="@+id/spinnerSubCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/layoutObioma2"
+                android:layout_width="wrap_content"
+                android:layout_span="2"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layout0">
+
+
+                    <TextView
+                        android:id="@+id/tvWelcomeLarge"
+                        android:layout_width="333dp"
+                        android:layout_height="wrap_content"
+                        android:text="Most Popular"
+                        android:padding="10dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tvWelcomesmall"
+                        android:layout_width="333dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/unlimited_messaging_therapy_premium"
+                        android:textAlignment="center"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_gravity="center"
+                        android:layout_height="2dp"
+                        android:background="@color/colorPrimary"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_span="2"
+                android:layout_weight="2">
+
+                <!-- row 1 -->
+
+                <!-- row 1 end -->
+
+
+                <!-- row 2 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <!-- col 1 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/btnFree"
+                            android:layout_width="99dp"
+                            android:layout_height="73dp"
+                            android:background="#003D4C"
+                            android:padding="8dp"
+                            android:text="Messaging Only"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/btnFreeDown"
+                            android:layout_width="99dp"
+                            android:layout_height="wrap_content"
+                            android:background="#003D4C"
+                            android:padding="8dp"
+                            android:text="Free"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                    <!-- col 1 end -->
+                    <!-- col 2 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/btnThousand"
+                            android:layout_width="99dp"
+                            android:layout_height="73dp"
+                            android:background="#0EA68D"
+                            android:padding="8dp"
+                            android:text="Messaging + 1 Live Session"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/btnThousandDown"
+                            android:layout_width="99dp"
+                            android:layout_height="wrap_content"
+                            android:background="#0EA68D"
+                            android:padding="8dp"
+                            android:text="N1000/Mn"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                    <!-- col 2 end -->
+                    <!-- col 3 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/btnHigh"
+                            android:layout_width="99dp"
+                            android:layout_height="73dp"
+                            android:background="#003D4C"
+                            android:padding="8dp"
+                            android:text="Messaging + 4 Live Sessions"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/btnHighDown"
+                            android:layout_width="99dp"
+                            android:layout_height="wrap_content"
+                            android:background="#003D4C"
+                            android:padding="8dp"
+                            android:text="N1500/Mn"
+                            android:textAlignment="center"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- col 3 end -->
+
+
+            </TableRow> <TableRow
+            android:id="@+id/layoutObioma3"
+            android:layout_width="wrap_content"
+            android:layout_span="2"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/layout1">
+
+
+                <TextView
+                    android:id="@+id/tvWelcomeLarge2"
+                    android:layout_width="333dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/plan_details"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tvWelcomesmall2"
+                    android:layout_width="333dp"
+                    android:layout_height="wrap_content"
+                    android:text="1 Live session, 30 mins"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp" />
+
+                <View
+                    android:layout_width="300dp"
+                    android:layout_gravity="center"
+                    android:layout_height="2dp"
+                    android:background="@color/colorPrimary"/>
+            </LinearLayout>
+        </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_span="2"
+                android:layout_weight="2">
+
+                <!-- row 1 -->
+
+                <!-- row 1 end -->
+
+
+                <!-- row 2 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <!-- col 1 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/billedEvery1monthTop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#5B84FA"
+                            android:padding="8dp"
+                            android:text="Billed every"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/billedEvery1monthBottom"
+                            android:layout_width="85dp"
+                            android:layout_height="wrap_content"
+                            android:background="#5B84FA"
+                            android:textColor="@color/white"
+                            android:padding="8dp"
+                            android:text="1 Month" />
+                    </LinearLayout>
+                    <!-- col 1 end -->
+                    <!-- col 2 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/billedEvery3monthsTop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="8dp"
+                            android:text="Billed every" />
+
+                        <TextView
+                            android:id="@+id/billedEvery3monthsBottom"
+                            android:layout_width="86dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="8dp"
+                            android:text="3 Months" />
+                    </LinearLayout>
+                    <!-- col 2 end -->
+                    <!-- col 3 -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/billedEvery6monthsTop"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="8dp"
+                            android:text="Billed every" />
+
+                        <TextView
+                            android:id="@+id/billedEvery6monthsBottom"
+                            android:layout_width="86dp"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="8dp"
+                            android:text="6 Months" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- col 3 end -->
+
+
+            </TableRow>
+
+
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tvInstruction"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:clickable="true"
+                    android:text="@string/click_the_button_below"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:focusable="true" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:background="#FFFFFF"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/submitButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:padding="4dp"
+                    android:background="#FFFFFF"
+                    android:src="@drawable/ic_action_send"
+                    />
+            </TableRow>
+
+        </TableLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
